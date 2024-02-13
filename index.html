@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather WebApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="name">Hi, Harsha Vardhan</div>
+            <div><input id="input-city" type="text" placeholder="Search City"></div>
+            <!-- <div  class="unit"><input type="button" value="C"> | <input type="button" value="F"></div > -->
+        </header>
+        <div class="flex-container">
+            <div class="left">
+                <div id="Today">Today</div>
+                <div class="today-temp">
+                    <div id="current-temp">21&deg;c</div>
+                    <div id="current-img"><img src="" alt="today-weather"></div>
+                </div>
+                <div class="condition">Cloudy</div>
+                <div class="area">
+                    <div class="time">06:10,</div>
+                    <div class="city">&nbsp; Hyderabad</div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="hour-forecast">
+                    <h3>Hour Forecast</h3>
+                    <div class="hr-forecast-table">
+                        <div class="card card-one">
+                            <p>Now</p>
+                            <img src="" alt="">
+                            <span>21&deg;</span>
+                        </div>
+                        <div class="card card-two">
+                            <p>Now</p>
+                            <img src="" alt="">
+                            <span>21&deg;</span>
+                        </div>
+                        <div class="card card-three">
+                            <p>Now</p>
+                            <img src="" alt="">
+                            <span>21&deg;</span>
+                        </div>
+                        <div class="card card-four">
+                            <p>Now</p>
+                            <img src="" alt="">
+                            <span>21&deg;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="day-forecast">
+                    <h3>3-Day Forecast</h3>
+                    <div class="d-forecast-table">
+                        <div class="d-left">
+                            <p>Today</p>
+                            <p>Tomorrow</p>
+                            <p>13-02-2024</p>
+                        </div>
+                        <div class="d-right">
+                            <div>21&deg;</div><img src="" alt="">
+                            <div>21&deg;</div><img src="" alt="">
+                            <div>21&deg;</div><img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

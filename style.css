@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 10px;
+}
+
+body{
+    /* min-height: 100vh; */
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background: #0ea5e9;
+}
+
+/* CONTAINER */ 
+
+.container{
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: #1e293b;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* header input{
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem 0.8rem;
+    margin-top: 0.4rem;
+    border-radius: 0.4rem;
+    width: 3rem;
+    font-family: "Poppins", sans-serif;
+} */
+
+#input-city{
+    width: 100%;
+    outline: none;
+    padding: 0.4rem 0.6rem;
+    margin-top: 0.4rem;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.name{
+    font-family: "Dancing Script", 'Lucida Sans', Verdana, sans-serif;
+    font-size: 2.4rem;
+}
+
+/* Flex Container */
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.left, .right{
+    flex: 1;
+}
+
+/* LEFT */
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 1px solid white; */
+    margin: 10rem;
+}
+
+#Today{
+    font-size: 1.8rem;
+    /* border: 1px solid white; */
+    margin-bottom: 1.2rem;
+}
+
+.today-temp{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    width: 35%;
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+}
+
+#current-temp{
+    font-size: 5.2rem;
+}
+
+.condition{
+    /* border: 1px solid white; */
+    margin-bottom: 1.2rem;
+}
+
+.area{
+    display: flex;
+    /* border: 1px solid white; */
+    width: 35%;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.4rem;
+}
+
+/* RIGHT */
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 1px solid white; */
+    margin: 10rem;
+}
+
+.hour-forecast{
+    border: 1px solid white;
+    width: 100%;
+}
+
+.hr-forecast-table{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day-forecast{
+    border: 1px solid white;
+    width: 100%;
+}
+
+.d-forecast-table{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
